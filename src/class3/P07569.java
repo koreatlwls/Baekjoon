@@ -7,18 +7,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class PointXYZ {
-    int height;
-    int row;
-    int col;
-
-    public PointXYZ(int height, int row, int col) {
-        this.height = height;
-        this.row = row;
-        this.col = col;
-    }
-}
-
 public class P07569 {
     static BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
     static int rowArr[] = {-1, 0, 1, 0, 0, 0};
@@ -87,5 +75,17 @@ public class P07569 {
         if (height < 1 || height > h || row < 1 || row > n || col < 1 || col > m) return false;
         if (arr[height][row][col] == 0) return true;
         else return false;
+    }
+
+    static class PointXYZ {
+        int height;
+        int row;
+        int col;
+
+        PointXYZ(int height, int row, int col) {
+            this.height = height;
+            this.row = row;
+            this.col = col;
+        }
     }
 }
