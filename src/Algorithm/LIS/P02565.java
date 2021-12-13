@@ -1,4 +1,4 @@
-package Algorithm.DP.LIS;
+package Algorithm.LIS;
 
 import java.io.BufferedReader;
 import java.io.IOException;
