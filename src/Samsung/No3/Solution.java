@@ -94,7 +94,7 @@ class Solution {
     public static void main(String[] args) throws Exception {
         int TC, totalscore, totalcallcount;
 
-        String path = Samsung.No3.Solution.class.getResource("").getPath();
+        String path = Solution.class.getResource("").getPath();
         File file = new File(path + "sample_input.txt");
         System.setIn(new java.io.FileInputStream(file));
 
