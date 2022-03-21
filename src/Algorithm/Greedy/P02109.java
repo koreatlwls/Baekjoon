@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.Greedy;
 
 import java.awt.*;
 import java.io.BufferedReader;
