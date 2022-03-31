@@ -1,4 +1,4 @@
-package Algorithm;
+package Algorithm.Dijkstra;
 
 import java.io.BufferedReader;
 import java.io.IOException;
